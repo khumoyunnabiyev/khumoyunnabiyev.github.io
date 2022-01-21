@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'DM Sans', sans-serif;
+}
+.container-main{
+    margin: 0 auto;
+    outline: 1px solid red;
+    width: 1440px;
+    height: auto;
+}
+.nav{
+    width: 1440px;
+    height: 150px;
+    outline: 1px solid red;
+    display: flex;
+    align-items: center;
+    // justify-content: space-around;
+}
+.nav_menu{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    margin-left: 60px;
+}
+.nav_item{
+    padding: 40px;
+}
+.nav_link{
+    font-weight: 400px;
+    font-size: 18px;
+    color: #222222;
+    text-decoration: none !important;
+    
+
+}
+.nav_btn{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #F3FBF8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+   
+}
+.link_btn{
+    color: #222222;
+    display: inline-block;
+}
+.link_btn1{
+    padding: 10px 23px;
+    border-radius: 8px;
+    background-color: #09A66D;
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none !important;
+    border: 1px solid #09A66D;
+    &:hover{
+        color: #09A66D;
+        background-color: white;
+    }
+}
+.btns{
+    margin-left: auto;
+    margin-right: 123px;
+}
+.nav_logo{
+    margin-right: auto;
+    margin-left: auto;
+}
+.organic{
+    width: 1440px;
+    height: 850px;
+    background-image: url(/img/organic-leaf.png);
+    background-size: 612px 408px;
+    background-repeat: no-repeat;
+}
