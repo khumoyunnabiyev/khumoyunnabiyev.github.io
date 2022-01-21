@@ -75,7 +75,145 @@
 .organic{
     width: 1440px;
     height: 850px;
+    background-color: #F3FBF8;
     background-image: url(/img/organic-leaf.png);
     background-size: 612px 408px;
     background-repeat: no-repeat;
+    position: relative;
+}
+.box-name{
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 90px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #222222;
+}
+.organic__name{
+    // display: inline-block;
+    // margin: 93px auto;
+    padding-top: 93px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+}
+.box-info{
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    color: #555555;
+
+}
+.organic_info{
+    text-align: center;
+    width: 640px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+}
+.organic_fruit_box{
+    width: 862px;
+    height: 465px;
+    // outline: 1px solid red;
+    background-image:linear-gradient(#f3fbf8d2),url(/img/oganic-fruit.png);
+    background-color: #F3FBF8;
+    background-size: cover;
+    margin-top: 80px;
+    margin-left: 120px;
+}
+.organic_fruit_box p{
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0em;
+    color: #222222;
+    display: flex;
+    margin: 0;
+}
+.organic_fruit_box span{
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    background-color: #09A66D;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin: 20px;
+}
+.order{
+    // outline: 1px solid red;
+    display: flex;
+    align-items: center;
+    margin-left: 500px;
+ 
+}
+.statistic{
+    position: absolute;
+    width: 250px;
+    height: 408px;
+    // outline: 1px solid red;
+    right: 100px;
+    bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.statistic_box{
+    width: 250px;
+    height: 116px;
+    // outline: 1px solid red;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+    
+
+}
+.icon_box{
+    width: 56px;
+    height: 56px;
+    background-color: #F3FBF8;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icon_box img{
+    width: 32px;
+    height: 32px;
+}
+.icon_box_name h5{
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #000000;
+
+}
+.icon_box_name p{
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    color: #000000;
+
+}
+.why_name_box{
+    width: 1440px;
+    height: 340px;
+    outline: 1px solid red;
+}
+.why-we{
+    width: 1440px;
+    height: 725px;
+    outline: 1px solid red;
 }
