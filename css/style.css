@@ -269,12 +269,92 @@
 .why_name_box {
   width: 1440px;
   height: 340px;
-  outline: 1px solid red;
 }
 
 .why-we {
   width: 1440px;
   height: 725px;
-  outline: 1px solid red;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.why_name {
+  margin-left: 100px;
+  padding-top: 140px;
+}
+
+.why_info {
+  margin-left: 100px;
+  width: 680px;
+}
+
+.service {
+  width: 600px;
+  height: 100%;
+}
+
+.why-we_img img {
+  width: 600px;
+  height: 600px;
+  margin-left: 130px;
+}
+
+.service_menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: 100px;
+}
+
+.service_item {
+  width: 500px;
+  height: 160px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.item_active {
+  background-color: #F3FBF8;
+  margin: 61px 0;
+}
+
+.item_img {
+  width: 80px;
+  height: 80px;
+  background-color: #F3FBF8;
+  border-radius: 50%;
+  margin-left: 60px;
+  margin-top: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.item_img img {
+  width: 40px;
+  height: 40px;
+}
+
+.item_infos {
+  margin-top: 41px;
+  width: 280px;
+  margin-left: 24px;
+}
+
+.item_infos h5 {
+  font-weight: 700;
 }
 /*# sourceMappingURL=style.css.map */

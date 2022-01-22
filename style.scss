@@ -211,10 +211,72 @@
 .why_name_box{
     width: 1440px;
     height: 340px;
-    outline: 1px solid red;
+    // outline: 1px solid red;
 }
 .why-we{
     width: 1440px;
     height: 725px;
-    outline: 1px solid red;
+    // outline: 1px solid red;
+    display: flex;
+}
+.why_name{
+    margin-left: 100px;
+    padding-top: 140px;
+}
+.why_info{
+    margin-left: 100px;
+    width: 680px;
+}
+.service{
+    width: 600px;
+    height: 100%;
+    // outline: 1px solid red;
+    // display: flex;
+}
+.why-we_img img{
+    width: 600px;
+    height: 600px;
+    margin-left: 130px;
+}
+.service_menu{
+    display: flex;
+    list-style-type: none;
+    flex-direction: column;
+    margin-left: 100px;
+}
+.service_item{
+    // outline: 1px solid red;
+    width: 500px;
+    height: 160px;
+    display: flex;
+    
+}
+.item_active{
+    background-color: #F3FBF8;
+    margin: 61px 0;
+}
+.item_img{
+    width: 80px;
+    height: 80px;
+    background-color: #F3FBF8;
+    // background-color: red;
+    border-radius: 50%;
+    margin-left: 60px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.item_img img{
+    width: 40px;
+    height: 40px;
+
+}
+.item_infos{
+    margin-top: 41px;
+    width: 280px;
+    margin-left: 24px;
+}
+.item_infos h5{
+    font-weight: 700;
 }
