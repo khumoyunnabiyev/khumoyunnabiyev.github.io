@@ -280,3 +280,58 @@
 .item_infos h5{
     font-weight: 700;
 }
+.explor{
+    width: 1440px;
+    height: 832px;
+    // outline: 1px solid red;
+    display: flex;
+    background-color: #2df0a881 ;
+    // margin-bottom: 200px;
+    background-image: url(/img/organic-leaf.png);
+    background-repeat: no-repeat;
+    background-size: 413px 397px;
+    background-position: 976px 434px;
+}
+.exlpor_img__box{
+    margin-left: 100px;
+    margin-top: 88px;
+}
+.explor_name{
+    margin-top: 120px;
+    margin-left: 50px;
+}
+.explor_info{
+    width: 580px;
+    margin-left: 50px;
+}
+.explor_info{
+    // outline: 1px solid red;
+}
+.explor_link p{
+    
+   font-size: 18px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: 30px;
+   letter-spacing: 0em;
+   margin: 0;
+
+}
+.explor_link span{
+    width: 64px;
+    height: 64px;
+    color: white;
+    border-radius: 50%;
+    background-color: #09A66D;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 25px;
+}
+.explor_link {
+    width: 200px;
+    height: 200px;
+    // outline: 1px solid red;
+    display: flex;
+    align-items: center;
+}
