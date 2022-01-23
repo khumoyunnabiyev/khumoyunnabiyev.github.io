@@ -99,7 +99,7 @@
   width: 1440px;
   height: 850px;
   background-color: #F3FBF8;
-  background-image: url(/img/organic-leaf.png);
+  background-image: url(../img/organic-leaf.png);
   background-size: 612px 408px;
   background-repeat: no-repeat;
   position: relative;
@@ -142,8 +142,8 @@
 .organic_fruit_box {
   width: 862px;
   height: 465px;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#f3fbf8d2)), url(/img/oganic-fruit.png);
-  background-image: linear-gradient(#f3fbf8d2), url(/img/oganic-fruit.png);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#f3fbf8d2)), url(../img/oganic-fruit.png);
+  background-image: linear-gradient(#f3fbf8d2), url(../img/oganic-fruit.png);
   background-color: #F3FBF8;
   background-size: cover;
   margin-top: 80px;
@@ -363,7 +363,7 @@
   display: -ms-flexbox;
   display: flex;
   background-color: #2df0a881;
-  background-image: url(/img/organic-leaf.png);
+  background-image: url(../img/organic-leaf.png);
   background-repeat: no-repeat;
   background-size: 413px 397px;
   background-position: 976px 434px;
@@ -545,7 +545,7 @@
   height: 100%;
 }
 
-.iphone_img img {
+.phone_img {
   width: 222px;
   height: 482px;
   margin-left: 222px;
